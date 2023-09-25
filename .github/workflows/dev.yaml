@@ -1,4 +1,4 @@
-name: capture-processing-infrastructure
+name: dev
 
 on:
   push:
