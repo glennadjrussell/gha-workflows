@@ -1,0 +1,17 @@
+name: capture-processing-infrastructure
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+
+jobs:
+    pre-deploy:
+      runs-on: ubuntu-latest
+
+      steps:
+      - name: checkout scm
+        uses: actions/checkout@v2
+
